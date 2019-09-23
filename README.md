@@ -2,7 +2,7 @@
 A simple android firebase notification example 
 
 ### Notification : 
-<img src="https://github.com/datanapps/FirebaseMessaging/blob/master/screens/fcm_1.png" height="600" width="400">
+<img src="https://github.com/datanapps/FirebaseMessaging/blob/master/screens/fcm_1.png" height="600" width="330">
 
 
 ### Download APK : 
