@@ -50,3 +50,10 @@ Application Dependency :
 
     // add firebase message
    **implementation 'com.google.firebase:firebase-messaging:20.0.0'**
+   
+   
+   
+       
+#### Read More :
+
+https://firebase.google.com/docs/cloud-messaging/android/client
