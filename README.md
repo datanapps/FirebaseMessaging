@@ -18,30 +18,31 @@ Project Lable :
 
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
-buildscript {
-    repositories {
-        google()
-      ....
-        
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.0'
-        **classpath 'com.google.gms:google-services:4.3.2'**
-    }
-}
+        buildscript {
+            repositories {
+                **google()**
+              ....
+                }
+            dependencies {
+                classpath 'com.android.tools.build:gradle:3.5.0'
+                **classpath 'com.google.gms:google-services:4.3.2'**
+            }
+        }
 
-allprojects {
-    repositories {
-        google()
-        jcenter()
-        
-    }
-}
+        allprojects {
+            repositories {
+                **google()**
+                jcenter()
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
+            }
+        }
 
+        task clean(type: Delete) {
+            delete rootProject.buildDir
+        }
+
+
+Application Dependency : 
 
     // add firebase message
-    implementation 'com.google.firebase:firebase-messaging:20.0.0'
+   **implementation 'com.google.firebase:firebase-messaging:20.0.0'**
