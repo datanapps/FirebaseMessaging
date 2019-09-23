@@ -2,8 +2,8 @@
 A simple android firebase notification example 
 
 ### Notification : 
+<img src="https://github.com/datanapps/FirebaseMessaging/blob/master/screens/fcm_1.png" height="100" width="60">
 
-![alt text](https://github.com/datanapps/FirebaseMessaging/blob/master/screens/fcm_1.png)
 
 ### Download APK : 
 
